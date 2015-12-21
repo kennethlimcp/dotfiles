@@ -1,0 +1,24 @@
+alias ddrive='cd /Volumes/dd'
+
+#place photon in dfu without buttons
+alias dfu='x=`compgen -f -- "/dev/tty.usbmodem"`;if [ -z "$x" ]; then echo "No USB device found"; else eval $(stty -f $x 14400); fi'
+
+#particle CLI
+alias p='particle'
+alias pfc='particle function call'
+alias pfu='particle flash --usb '
+alias pi='particle identify'
+alias pl='particle list'
+alais ps='particle subscribe'
+alias psm='particle subscribe mine'
+alias pu='particle update'
+alias pv='particle get'
+
+# copy file interactive
+alias cp='cp -i'
+
+# move file interactive
+alias mv='mv -i'
+
+# untar
+alias untar='tar xvf'

@@ -1,0 +1,7 @@
+#gcc-arm-none-eabi
+export EABIPATH=/usr/local/gcc-arm-none-eabi-4_8-2014q2/bin
+export VAGRANTPATH=/usr/bin/vagrant:/usr/local/packer
+export STLINKPATH=/Volumes/dd/stlink
+export NPMPATH=/Users/kennethlimcp/npm-global/bin
+
+export PATH=/usr/local/bin:$PATH:$EABIPATH:$VAGRANTPATH:$STLINKPATH:$NPMPATH
