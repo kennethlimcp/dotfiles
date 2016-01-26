@@ -5,14 +5,23 @@ alias dfu='x=`compgen -f -- "/dev/tty.usbmodem"`;if [ -z "$x" ]; then echo "No U
 
 #particle CLI
 alias p='particle'
+alias pbi='particle serial inspect'
+alias pc='particle compile'
+alias pce='particle compile electron'
+alias pci='particle config identify'
+alias pcp='particle compile photon'
+alias pf='particle flash'
 alias pfc='particle function call'
-alias pfu='particle flash --usb '
+alias pfu='particle flash --usb'
 alias pi='particle identify'
 alias pl='particle list'
+alias plo='particle list online'
 alias ps='particle subscribe'
 alias psm='particle subscribe mine'
+alias psw='particle serial wifi'
 alias pu='particle update'
 alias pv='particle get'
+alias pwc='particle webhook create'
 alias pwl='particle webook list'
 
 # copy file interactive
@@ -23,3 +32,9 @@ alias mv='mv -i'
 
 # untar
 alias untar='tar xvf'
+
+#arm-none-eabi-gdb
+alias gdb='arm-none-eabi-gdb'
+
+#make
+alias m='make'
