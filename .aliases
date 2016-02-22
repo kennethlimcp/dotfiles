@@ -1,10 +1,15 @@
 alias ddrive='cd /Volumes/dd'
 
+#system cmd
+alias coffee='caffeinate -d'
+alias reload='source ~/.bash_profile'
+
+
 # Easier navigation: .., ..., ...., .....
-alias ..="cd .."
-alias ...="cd ../.."
-alias ....="cd ../../.."
-alias .....="cd ../../../.."
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+alias .....='cd ../../../..'
 
 #place photon in dfu without buttons
 alias dfu='x=`compgen -f -- "/dev/tty.usbmodem"`;if [ -z "$x" ]; then echo "No USB device found"; else eval $(stty -f $x 14400); fi'
@@ -37,7 +42,7 @@ alias g='git'
 alias gs='git status'
 alias ga='git add'
 alias gaa='git add .'
-alias gcom='git commit -s'
+alias gc='git commit -s'
 alias gl='git log'
 
 # copy file interactive
