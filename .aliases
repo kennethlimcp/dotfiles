@@ -1,9 +1,9 @@
-alias ddrive='cd /Volumes/dd'
+alias ddrive='cd /Volumes/dd/github'
 
 #system cmd
 alias coffee='caffeinate -d'
 alias reload='source ~/.bash_profile'
-
+alias desk='cd ~/Desktop'
 
 # Easier navigation: .., ..., ...., .....
 alias ..='cd ..'
