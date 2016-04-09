@@ -1,6 +1,7 @@
 alias ddrive='cd /Volumes/dd/github'
 
 #system cmd
+alias c='clear'
 alias coffee='caffeinate -d'
 alias reload='source ~/.bash_profile'
 alias desk='cd ~/Desktop'
