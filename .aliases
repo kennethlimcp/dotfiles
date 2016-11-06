@@ -1,6 +1,6 @@
 alias ddrive='cd /Volumes/dd/github'
 
-#system cmd
+# system cmd
 alias c='clear'
 alias coffee='caffeinate -d'
 alias d='docker'
@@ -8,11 +8,15 @@ alias reload='source ~/.bash_profile'
 alias desk='cd ~/Desktop'
 alias ip='ipconfig getifaddr en0'
 
-# Easier navigation: .., ..., ...., .....
+# easier navigation: .., ..., ...., .....
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+
+# mac native resize
+alias resize_p='sips --resampleHeight 600'
+alias resize_l='sips --resampleWidth 1024'
 
 #place photon in dfu without buttons
 alias dfu='x=`compgen -f -- "/dev/tty.usbmodem"`;if [ -z "$x" ]; then echo "No USB device found"; else eval $(stty -f $x 14400); fi'
@@ -24,11 +28,15 @@ alias pc='particle compile'
 alias pce='particle compile electron'
 alias pci='particle config identify'
 alias pcp='particle compile photon'
+alias pda='particle device add'
 alias pf='particle flash'
 alias pcf='particle function call'
 alias pfu='particle flash --usb'
 alias pi='particle identify'
 alias pl='particle list'
+alias pliba='particle library add'
+alias plibinit='particle library init'
+alias plibs='particle library search'
 alias plo='particle list online'
 alias ppub='particle publish'
 alias psetup='particle setup'
@@ -43,6 +51,7 @@ alias pwl='particle webhook list'
 alias pwr='particle webhook delete'
 
 #docker
+alias di='docker images'
 alias dps='docker ps'
 alias dpsa='docker ps -a'
 alias drm='docker rm'
@@ -50,6 +59,9 @@ alias drmall='docker rm $(docker ps -aq)'
 alias drmi='docker rmi'
 alias ds='docker stop'
 alias dstats='docker stats'
+
+#docker-machine
+alias dm='docker-machine'
 
 #git
 alias g='git'
@@ -59,6 +71,7 @@ alias gb='git branch'
 alias gbn='git checkout -b'
 alias gcheck='git checkout'
 alias gc='git commit -s -S'
+alias gclone='git clone'
 alias gd='git diff'
 alias gl='git log --show-signature'
 alias gm='git merge'
