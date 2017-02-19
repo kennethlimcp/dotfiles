@@ -2,7 +2,7 @@ alias ddrive='cd /Volumes/dd/github'
 
 # system cmd
 alias c='clear'
-alias coffee='caffeinate -d'
+alias kopi='caffeinate -d'
 alias d='docker'
 alias reload='source ~/.bash_profile'
 alias desk='cd ~/Desktop'
@@ -95,3 +95,7 @@ alias gdb='arm-none-eabi-gdb'
 
 #make
 alias m='make'
+
+#firebase
+alias fb='firebase'
+alias fbd='firebase deploy'
