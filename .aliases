@@ -80,6 +80,7 @@ alias gpull='git pull'
 alias gpush='git push'
 alias gr='git rebase -i'
 alias gs='git status'
+alias gstash='git stash'
 
 # copy file interactive
 alias cp='cp -i'
